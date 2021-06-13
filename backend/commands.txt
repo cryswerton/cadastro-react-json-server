@@ -1,0 +1,8 @@
+npm init -y
+
+npm i --save json-server@0.13.0 -E 
+(--save: salva como dependencia no arquivo package.json; -E: salva exatamente a versão específicada.)
+
+json-server --watch db.json --port 3001
+
+npm i (instala todas as dependências presentes no arquivo package.json)
